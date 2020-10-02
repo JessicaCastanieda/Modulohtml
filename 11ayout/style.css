@@ -1,0 +1,12 @@
+body{
+    background-color: lightpink;
+    font-family: cursive;
+}
+header{
+    border: 3px dotted powderblue;
+    height: 10vh;
+}
+nav{
+    margin-top: 5px;
+    border: 3px dotted palevioletred;
+}

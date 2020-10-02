@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Etiqueta de bloque -->
+    <style>
+    /* llaves = bloque de codigo { } */
+    /* el selector apunta o selecciona a las etiquetas */
+    /* selecto 1 nombre etiqueta o elemento */
+        p{
+            background-color: violet;
+            color: seashell;
+        }
+        /* selector 2 clase declarar un (punto) . seguido de un nombre */
+        /* selector de clase */
+        .parrafo1{
+            background-color: springgreen;
+            color: darkblue;
+            /* aliacion del texto */
+            text-align: center;
+            /* tamaño de la fuente */
+            /* fuente = letra */
+            /* px = unidad de medida */
+            font-size: 30px;
+        }
+        .parrafo2{
+            background-color: darkmagenta;
+            color: darkorange;
+        }
+        #parrafo3{
+            background-color: deeppink;
+            color: darkorchid;
+        }
+    </style>
+    <!-- rel = relacion -->
+    <!-- href hiperviculo de referencia = dime el nombre  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Estilo</title>
+</head>
+<body>
+
+    <h1 class="titulo">Estilo</h1>
+
+    <!-- con emmet donde [h1]es el nombre de la etiqueta [.] referencia a la clase [titulo] nombre de la clase [>] mayor que = dentro del h1 o cerrando el braket de inicio [{}] para escribir texto [Estilo] se muestra en pantalla-->
+    <!-- h1.titulo>{Estilo} -->
+
+    
+    <!-- sintaxis = la forma correcta de escribir codigo -->
+    <h1 style="background-color: rgb(160, 174, 194);color: mediumpurple; text-align: center;"> Estilo</h1>
+    <!-- estilo en linea CSS V1 -->
+    <h2>Estilo en linea v1</h2>
+    <p style="background-color: whitesmoke; color: violet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam beatae totam architecto sequi maxime necessitatibus suscipit quas mollitia quo modi!</p>
+    <hr>
+
+    <!-- estilo global o embebido CSS V2 -->
+    <!-- x dentro y -->
+    <h2>Estilo global o embebido v2</h2>
+    <p>Selector por clase</p>
+    <p class="parrafo1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, saepe explicabo esse natus, eligendi ad ea id architecto qui enim possimus vel, odio nesciunt ratione expedita. Corporis numquam beatae maiores assumenda commodi. Ab laboriosam ratione ipsam eveniet enim quae assumenda.</p>
+    <p class="parrafo2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam eum quas sequi incidunt dolorum delectus sapiente tempore perspiciatis fugit reiciendis magni nihil illo in aliquid esse asperiores rerum quasi ducimus, vero libero.</p>
+    <p>Selector por id</p>
+    <p id="parrafo3">Lorem ipsum dolor sit amet consectetur adipisicing , quia?</p>
+    <hr>
+    <!-- estilo externo CSS v3 actual -->
+    <h2>Estilo externo v3</h2> 
+    <p class="jess">Esto es un parrafo con la clase de jess</p>
+    <em class="danny">Esto es un parrafo con la clase de danny</em>
+    <br>
+    <del class="iracel">Esto es un parrafo con la clase de iracel</del>
+    
+    <h4>Osos</h4>
+    <ul>
+        <li id="oso">Peludos</li>
+        <li id="oso">Grandes</li>
+        <li id="oso">Feroces</li>
+    </ul>
+
+    <h4>Jirafas</h4>
+    <ol>
+        <li id="jirafas">Altas</li>
+        <li id="jirafas">Manchas</li>
+        <li id="jirafas">Herbivoras</li>
+    </ol>
+
+    <h4>Delfines</h4>
+    <ul>
+        <li id="delfin">Inteligentes</li>
+        <li id="delfin">Tiernos</li>
+        <li id="delfin">Gandes</li>
+    </ul>
+    <!--  Seleccionar bloque o codigo a copiar y presionar shift + alt + tecla flecha abajo -->
+</body>
+</html>

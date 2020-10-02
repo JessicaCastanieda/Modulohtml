@@ -1,0 +1,70 @@
+body{
+    background-color: aquamarine;
+}
+#titulo{
+    color: black;
+    font-family: cursive;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+.principal{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+}
+.caja{
+    border: 5px solid palevioletred;
+    width: 40vw;
+    justify-content: center;
+}
+table{
+    width: 100%;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    background-color: cornflowerblue;
+    border: 5px dotted pink;
+}
+#bebidas{
+    color: lightblue;
+    background-color: black;
+}
+form{
+    background-color: black;
+    color: lightpink;
+    width: 40%;
+    margin-left: 30%;
+    padding: 5px;
+}
+input{
+    width: 30%;
+    outline: none;
+    border: none;
+    border-bottom: 2px ;
+}
+input:hover{
+    border-bottom: 2px dashed;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: lightpink;
+    color: black;
+}
+button:hover{
+    height: 70px;
+    width: 70px;
+    outline: none;
+    border: none;
+}
+.segunda{
+    display: flex;
+    border: 2px darkmagenta double;
+    justify-content: space-around;
+}

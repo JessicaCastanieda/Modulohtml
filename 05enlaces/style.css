@@ -1,0 +1,26 @@
+body{
+    background-color: darkgrey;
+}
+.titulo{
+    background-color: darksalmon;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+a{
+    color: black;
+    /* tipo de fuente */
+    font-family: fantasy;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    /* texto de decoracion */
+    text-decoration: none;
+}
+/* pseudo selectores */
+/* [selector]: hover flotando */
+a:hover{
+    color: yellow;
+    font-size: 30px;
+}

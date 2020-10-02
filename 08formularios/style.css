@@ -1,0 +1,92 @@
+body{
+    background-color: aquamarine;
+}
+#titulo{
+    color: black;
+    font-family: cursive;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+form{
+    background-color: darkgray;
+    width: 40%;
+    margin-left: 30%;
+    padding: 5px;
+    border-radius: 20px;
+}
+/* especificidad */
+/* Decirle que elemento se debe de conportar indicanso solo en uno */
+.caja{
+    width: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 2px ;
+}
+.caja:hover{
+    border-bottom: 6px dashed;
+}
+input[type="text"]:focus, input[type="number"]:focus{
+    background-color: sienna;
+    color: black;
+    width: 50%;
+    transition: all .5s;
+}
+input[type="email"]:focus, input[type="password"]:focus{
+    background-color: saddlebrown;
+    color: black;
+    width: 50%;
+    transition: all .5s;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+}
+button:hover{
+    height: 70px;
+    width: 70px;
+    outline: none;
+    border: none;
+}
+ /* body{ 
+    background-color: lightpink;
+}
+.titulo{
+    color: black;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form{
+    background-color: black;
+    color: lightpink;
+    width: 40%;
+    margin-left: 30%;
+    padding: 5px;
+}
+input{
+    width: 30%;
+    outline: none;
+    border: none;
+    border-bottom: 2px ;
+}
+input:hover{
+    border-bottom: 2px dashed;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: lightpink;
+    color: black;
+}
+button:hover{
+    height: 70px;
+    width: 70px;
+    outline: none;
+    border: none;
+}
+*/

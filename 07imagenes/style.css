@@ -1,0 +1,57 @@
+body{ 
+    background-color: rgb(139, 137, 150); 
+}
+.titulo{
+    background-color: pink;
+    color: black;
+    width: 30%;
+    font-family: cursive;
+    text-align: center;
+}
+/* 1)nombre de etiqueta */
+img{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    /* 0-1 son los parametros que tendra (.1, .5*/
+    opacity: .5;
+    /* cursor al señalar la imagen la muestra */
+    cursor: pointer;
+    border-radius: 20px;
+    /* transition [all] a todo el elemento [tiempo] */
+    transition: all .6s;
+}
+img:hover{
+    opacity: 1;
+    width: 510px;
+    height: 310px;
+    transition: all .6s;
+}
+.fondo{
+    width: 30%;
+    height: 450px;
+}
+#titulo{
+    background-color: plum;
+    color: black;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    opacity: .6;
+    cursor: zoom-out;
+    border-width: 30px;
+    transition: all .4s;
+}
+img:hover{
+    opacity: 1;
+    width: 400px;
+    height: 200px;
+    transition: all .4s;
+}

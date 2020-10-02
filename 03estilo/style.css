@@ -1,0 +1,62 @@
+/* selecto, bloque llaves y dentro prropiedad valor  */
+/* 3 tipos de selectores */
+/* 1) por nombre de etiqueta */
+/* p = nombre de la etiqueta es `p`*/
+/* Todo lo de atras lo profundo */
+body{
+    background-color:rgb(18, 134, 243);
+}
+.titulo{
+    background-color: aqua;
+    /* alinea el texto = contenido */
+    text-align: center;
+    /* ancho = width */
+    width: 30%;
+   /* marge = margin 4 vectores
+   [
+       top - arriba
+       left - izquierda
+       bottom - abajo
+       right - derecha
+
+       marguin - [vector]
+    ]*/
+    /* px % */
+   margin-left: 35%;
+   margin-right: 35%;
+   /* border */
+   /* recibe 3 valores */
+   /* [ tamaño o ancho |aspecto| color] */
+   border-top: 10px dotted plum;
+   /* radio */
+   border-radius: 5px;
+
+   /* padding = relleno margen internodentro del borde */
+   padding: 30px;
+}
+/* 2) por clase */
+.iracel{
+    color: white;
+    background-color: violet;
+}
+.jess{
+    color: black;
+    background-color: lightblue;
+}
+.danny{
+    color: red;
+    background-color: salmon;
+}
+/* 3) por ID */
+#oso{
+    color: lightblue;
+    background-color: black;
+}
+#jirafas{
+    color: violet;
+    background-color: white;
+}
+#delfin{
+    color: salmon;
+    background-color: red;
+}

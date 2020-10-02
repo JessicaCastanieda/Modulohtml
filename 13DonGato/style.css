@@ -1,0 +1,183 @@
+body{
+    background-color: rebeccapurple;
+    margin: 0%; 
+}
+header{
+    background-color: white;
+    /* border: 2px solid red;  */
+    background-position: center;
+}
+.principal{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo{
+    /* border: 2px solid aqua; */
+    display: flex;
+    font-size: 20px;
+}
+.logo img{
+    width: 100px;
+}
+nav{
+    /* border: 2px solid royalblue; */
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    padding: 37px;
+    list-style: none;
+    justify-content: center;
+}
+li, a{
+    margin-right: 30px;
+    color: black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+a:hover{
+    color: rebeccapurple;
+    font-size: 35px;
+}
+.separador{
+    text-align: center;
+    color: brown;
+    width: 50%;
+    background-color: wheat;
+    padding: 8%;
+    border-radius: 30px;
+    margin-left: 20%;
+    font-family: cursive;
+    font-size: 200%;
+}
+section{
+    /* border: 2px solid red;  */
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.caja{
+    background-color: white;
+    /* border: 2px solid deeppink; */
+    width: 50vh;
+    height: 70%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px black;
+}
+.conimg{
+    width: 100%;
+    opacity: .6;
+    transition: all .6s;
+}
+.conimg:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all .6s;
+}
+.context{
+    height: 90%;
+}
+h3{
+    width: 70%;
+    background-color: darkgray;
+    margin-top: 0;
+    padding: 8%;
+    border-bottom-right-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    padding: 8%;
+}
+ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.segunda{
+    width: 65%;
+}
+table{
+    background-color: white;
+    width: 100%;
+    box-shadow: 4px 4px 4px black;
+}
+th, td{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tercera{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor{
+    /* border: 2px solid aqua; */
+    background-color: white;
+    width: 30%;
+    height: 90%;
+    box-shadow: 6px 6px 6px black;
+    overflow: hidden;
+}
+.cont-img{
+     /* border: 2px solid hotpink; */
+     width: 100%;
+     opacity: .4;
+    transition: all .5s;
+}
+.cont-img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.cont-texto{
+    /* border: 2px solid red; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: brown;
+
+}
+.precio{
+    width: 20%;
+    background-color: rebeccapurple;
+    color: black;
+    margin-left: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 70%;
+}
+.dirreccion{
+    border: 2px solid aqua;
+    box-shadow: 2px 2px 5px black;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+}
+footer{
+    /* border: 2px dotted yellow; */
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+.caja-pie{
+    /* border: 2px solid red; */
+    height: 20vh;
+    height: 30%;
+    padding: 10px;
+}
+.caja-pie p{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.icono{
+    width: 100px;
+    border-radius: 20px;
+}

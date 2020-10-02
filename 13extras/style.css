@@ -1,0 +1,332 @@
+/* RGB */
+/* red green blue */
+/* va del 0 a 254 es el % de los colores */
+/* (188 de rojo, 143 de verde, 143 de azul) */
+/* 8bits */
+
+/* css hoja de estilo en cascada */
+body{
+    /* RGB */
+    background-color: rgb(188, 143, 143);
+    /* RGBA */
+    /* a alfa =difinumidado tranparencia */
+    background-color: rgba(254, 2, 2, 0.74);
+
+    /* hexadecimal ·y seis dijitos */
+    background-color: #6d2f2f;
+
+    /* HSL */
+    /* hue = saturacion */
+    /* intencidad */
+    /* luminosidad */
+    background-color: hsl(20, 63%, 36%);
+
+    /* HSLA */
+    /* canal alfa de o al 1 decimales */
+    background-color: hsla(225, 73%, 57%, .5)
+}
+
+/* paleta de colores */
+/* Color Theme Swatches in Hex */
+.color-1 { color: #F2C894; }
+.color-2 { color: #D99F6C; }
+.color-3 { color: #732002; }
+.color-4 { color: #F2F2F2; }
+.color-5 { color: #0D0D0D; }
+
+body{
+    background-color: #F2C894;
+    font-family: 'Courier Prime', monospace;
+}
+img{
+    width: 100%;
+}
+.icono{
+    width: 180px;
+}
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #DD3C54;
+  }
+  
+  .bell {
+    fill: #fff;
+    position: absolute;
+    top: 170px;
+    left: 175px;
+    -webkit-animation: ringing 2.5s ease infinite;
+            animation: ringing 2.5s ease infinite;
+  }
+  
+  .line {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+  
+  .line-1, .line-2, .line-3 {
+    position: absolute;
+    top: 170px;
+    left: 230px;
+  }
+  
+  .line-4, .line-5, .line-6 {
+    position: absolute;
+    top: 170px;
+    right: 230px;
+  }
+  
+  .line-1 {
+    -webkit-animation: line-1 2.5s ease-out infinite both;
+            animation: line-1 2.5s ease-out infinite both;
+  }
+  
+  .line-2 {
+    -webkit-animation: line-2 2.5s ease-out infinite both;
+            animation: line-2 2.5s ease-out infinite both;
+  }
+  
+  .line-3 {
+    -webkit-animation: line-3 2.5s ease-out infinite both;
+            animation: line-3 2.5s ease-out infinite both;
+  }
+  
+  .line-4 {
+    -webkit-animation: line-4 2.5s ease-out infinite both;
+            animation: line-4 2.5s ease-out infinite both;
+  }
+  
+  .line-5 {
+    -webkit-animation: line-5 2.5s ease-out infinite both;
+            animation: line-5 2.5s ease-out infinite both;
+  }
+  
+  .line-6 {
+    -webkit-animation: line-6 2.5s ease-out infinite both;
+            animation: line-6 2.5s ease-out infinite both;
+  }
+  
+  @-webkit-keyframes line-1 {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    50%, 100% {
+      -webkit-transform: translate3d(60px, 0, 0) scale(2);
+              transform: translate3d(60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes line-1 {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    50%, 100% {
+      -webkit-transform: translate3d(60px, 0, 0) scale(2);
+              transform: translate3d(60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes line-2 {
+    0%, 19% {
+      opacity: 0;
+    }
+    20% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    70%, 100% {
+      -webkit-transform: translate3d(60px, 0, 0) scale(2);
+              transform: translate3d(60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @keyframes line-2 {
+    0%, 19% {
+      opacity: 0;
+    }
+    20% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    70%, 100% {
+      -webkit-transform: translate3d(60px, 0, 0) scale(2);
+              transform: translate3d(60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes line-3 {
+    0%, 39% {
+      opacity: 0;
+    }
+    40% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    90%, 100% {
+      -webkit-transform: translate3d(60px, 0, 0) scale(2);
+              transform: translate3d(60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @keyframes line-3 {
+    0%, 39% {
+      opacity: 0;
+    }
+    40% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    90%, 100% {
+      -webkit-transform: translate3d(60px, 0, 0) scale(2);
+              transform: translate3d(60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes line-4 {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    50%, 100% {
+      -webkit-transform: translate3d(-60px, 0, 0) scale(2);
+              transform: translate3d(-60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @keyframes line-4 {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    50%, 100% {
+      -webkit-transform: translate3d(-60px, 0, 0) scale(2);
+              transform: translate3d(-60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes line-5 {
+    0%, 19% {
+      opacity: 0;
+    }
+    20% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    70%, 100% {
+      -webkit-transform: translate3d(-60px, 0, 0) scale(2);
+              transform: translate3d(-60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @keyframes line-5 {
+    0%, 19% {
+      opacity: 0;
+    }
+    20% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    70%, 100% {
+      -webkit-transform: translate3d(-60px, 0, 0) scale(2);
+              transform: translate3d(-60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes line-6 {
+    0%, 39% {
+      opacity: 0;
+    }
+    40% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    90%, 100% {
+      -webkit-transform: translate3d(-60px, 0, 0) scale(2);
+              transform: translate3d(-60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @keyframes line-6 {
+    0%, 39% {
+      opacity: 0;
+    }
+    40% {
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+              transform: translate3d(0, 0, 0) scale(1);
+      opacity: 1;
+    }
+    90%, 100% {
+      -webkit-transform: translate3d(-60px, 0, 0) scale(2);
+              transform: translate3d(-60px, 0, 0) scale(2);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes ringing {
+    0%, 50%, 100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    5%, 10%, 15%, 20%, 30%, 35%, 40% {
+      -webkit-transform: rotate(6deg);
+              transform: rotate(6deg);
+    }
+    45% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    7.5%, 12.5%, 17.5%, 22.5%, 27.5%, 32.5%, 37.5%, 42.5% {
+      -webkit-transform: rotate(-6deg);
+              transform: rotate(-6deg);
+    }
+    47.5% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+  }
+  @keyframes ringing {
+    0%, 50%, 100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    5%, 10%, 15%, 20%, 30%, 35%, 40% {
+      -webkit-transform: rotate(6deg);
+              transform: rotate(6deg);
+    }
+    45% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    7.5%, 12.5%, 17.5%, 22.5%, 27.5%, 32.5%, 37.5%, 42.5% {
+      -webkit-transform: rotate(-6deg);
+              transform: rotate(-6deg);
+    }
+    47.5% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+  }
+  

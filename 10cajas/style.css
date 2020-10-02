@@ -1,0 +1,26 @@
+body{
+    background-color: burlywood;
+}
+#titulo{
+    background-color: chocolate;
+    color: black;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 3px solid black;
+    text-align: center;
+}
+.principal{
+    display: flex;
+    border:2px solid thistle ;
+    /* eje x */
+    justify-content: center;
+    /* eje y */
+    align-items:center;
+
+}
+.caja{
+    border: 2px solid black;
+    width: 20vw;
+}

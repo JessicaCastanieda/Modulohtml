@@ -1,0 +1,103 @@
+body{
+    background-color: peachpuff;
+}
+header{
+    border: 2px solid lightseagreen;
+    height: 100vh;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-comida-dibujado-mano_23-2148052501.jpg);
+    background-size: cover;
+}
+.principal{
+    /* border: 2px solid purple; */
+    display: flex;
+    padding: 10px;
+}
+.logo{
+    /* border: 2px solid yellow; */
+    display: flex;
+    color: black;
+    align-items: flex-end;
+}
+/* Espacificidad */
+.logo img{
+    width: 100px;
+}
+nav{
+    border: 2px solid green;
+}
+nav ul{
+    display: flex;
+    padding: 25px;
+}
+li{
+    margin-left: 15px;
+    color: saddlebrown;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+li:hover{
+    color: yellowgreen;
+    font-size: 30px;
+}
+.slogan{
+    color:crimson;
+    font-family: cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px grey;
+    display: flex;
+    align-items: flex-end;
+    height: 80vh;
+}
+section{
+    border:2px solid cyan;
+    height: 100vh;
+    display: flex;
+}
+/* Herencia */
+.caja{
+    border: 2px solid yellow;
+    width: 30%;
+    /* viewport height */
+    /* cualquiera de los dos funciona height: 70vh; y height: 70%;*/
+    height: 70vh;
+    border-radius: 50px;
+    /* oculta desborde */
+    overflow: hidden;
+}
+/* .caja img{ 
+    
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    opacity: .5;
+     ida
+    transition: all .6s;
+} 
+.caja img:hover{
+    opacity: 1;
+    transform: scale(1.5);
+     regreso 
+    transition: all .6s;
+} */
+.contener-caja{
+    border: 2px solid black;
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+}
+.contener-img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    opacity: .5;
+    /* regreso */
+    transition: all .6s;
+}
+.contener-img img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    /* ida */
+    transition: all.6s;
+}

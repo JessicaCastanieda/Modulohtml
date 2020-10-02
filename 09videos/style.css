@@ -1,0 +1,15 @@
+body{ 
+    background-color: darksalmon; 
+}
+.titulo{
+    color: black;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: cursive;
+    text-align: center;
+}
+video{
+    width: 50%;
+    border: 7px blanchedalmond dotted;
+}
